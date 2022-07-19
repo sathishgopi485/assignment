@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Desription" content="Javascript - Factorial">
+    <title>Javascript - Factorial</title>
+    <script>
+        var num = prompt("enter the number")
+        if (num <0){
+            console.log("error");
+        } else if(num==0){
+            console.log ("the factorial of number is 1");
+        } else{
+            let fact = 1;
+            for (i=1; i<= num; i++){
+                fact*=i;
+            }
+            console.log(fact);
+        }
+    </script>
+</head>
+<body>
+    <h1> factorial of number</h1>
+</body>
+</html>
